@@ -2,7 +2,7 @@ package vivliopoleio;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class product {
+public class Product {
 	
 	private String category;
 	private String available;
@@ -16,7 +16,7 @@ public class product {
 
 
 	//constructor me arxikopoihsh timwn me mhdenikes/kenes times
-	public product() {
+	public Product() {
 		this.category = " ";
 		this.available = " ";
 		this.price = 0;
@@ -25,7 +25,7 @@ public class product {
 	}
 	
 	// constructor me parametrous
-	public product(String category, String available, double price, String desc) {
+	public Product(String category, String available, double price, String desc) {
 		
 		this.category = category;
 		this.available = available;
